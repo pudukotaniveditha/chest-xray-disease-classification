@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+env/
+
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+
+# Local datasets, model weights, and generated artifacts
+data/
+dataset/
+datasets/
+outputs/
+checkpoints/
+*.pt
+*.pth
+*.ckpt
+*.h5
+*.keras
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+.vscode/
